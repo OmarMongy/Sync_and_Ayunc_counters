@@ -7,12 +7,12 @@ Counters play a vital role in digital circuits, and T flip-flops are widely used
 ## 2. Asynchronous Counter Utilizing T Flip-Flops
 An asynchronous counter based on T flip-flops, often known as a ripple counter, functions by sequentially connecting T flip-flops in a chain. Each T flip-flop receives its clock input from the output of the preceding flip-flop in the chain. The output of the first T flip-flop represents the counter's least significant bit (LSB), while the final T flip-flop output represents the most significant bit (MSB). Asynchronous counters built with T flip-flops are straightforward to implement, but they lack a common clock signal, making them susceptible to glitches and leading to potential unstable states during count transitions.
 
-![Asynchronous Counter](https://media.geeksforgeeks.org/wp-content/uploads/20230127210501/counters-in-digital-logic.png)
+![Asynchronous Counter](https://www.tutorialspoint.com/digital_circuits/images/asynchronous_binary_up_counter.jpg)
 
 ## 3. Synchronous Counter Utilizing T Flip-Flops
 A synchronous counter constructed with T flip-flops utilizes a common clock signal shared by all flip-flops. Each T flip-flop in the counter toggles its state (Q to Q') based on the rising or falling edge of the common clock signal. This synchronous operation ensures that all flip-flops update their states simultaneously, eliminating glitches and rendering the counter more stable during counting transitions. The design of a synchronous counter employing T flip-flops can be in either an up-counting or down-counting configuration, offering flexibility in counting operations.
 
-![Synchronous Counter](https://media.geeksforgeeks.org/wp-content/uploads/20230127210822/synchronous-counters.png)
+![Synchronous Counter](https://i.stack.imgur.com/9hS6m.png)
 
 
 ## 4. Key Differences
